@@ -58,7 +58,8 @@ public class Funcionario {
 	public BigDecimal getSalario() {
 		return salario;
 	}
-
+	
+	//Encapsulamento mal feito, da pra acessar Salario sem regra de negocio
 	public void setSalario(BigDecimal salario) {
 		this.salario = salario;
 	}

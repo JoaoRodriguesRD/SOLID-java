@@ -13,11 +13,7 @@ public class Funcionario {
 	private Cargo cargo;
 	private BigDecimal salario;
 	private LocalDate dataUltimoReajuste;
-	
-	private int cep;
-	private String rua;
-	private String bairro;
-	private String cidade;
+	private Endereco endereco;
 
 	public Funcionario(String nome, String cpf, Cargo cargo, BigDecimal salario) {
 		this.nome = nome;
